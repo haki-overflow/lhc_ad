@@ -1,0 +1,8 @@
+# Quick sanity run on generated toy jets (no data needed).
+name: toy
+data: toy
+n_train: 4000
+n_val: 1000
+n_test: 4000
+image_pixels: 20
+epochs: 10

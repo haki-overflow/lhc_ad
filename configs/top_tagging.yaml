@@ -1,0 +1,14 @@
+# Real run. Point `data` at the folder holding train.h5, val.h5, test.h5
+# from https://zenodo.org/records/2603256
+name: top_pt_images
+data: data/top_tagging
+n_train: 200000
+n_val: 40000
+n_test: 100000
+n_constituents: 200
+image_pixels: 40
+image_mode: pt
+image_norm: sum
+hidden: [256, 64]
+latent: 16
+epochs: 30
